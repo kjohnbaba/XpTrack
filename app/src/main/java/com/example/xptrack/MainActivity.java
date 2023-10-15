@@ -20,9 +20,9 @@ public class MainActivity extends AppCompatActivity {
     public void onBtnClick (View view){
         TextView viewFinder = findViewById(R.id.textView2);
         EditText edtTxt = findViewById(R.id.edtTxt);
-        edtTxt.getText().toString();
 
-        viewFinder.setText("Hello");  // changes textview in iml to hello on app
+
+        viewFinder.setText("Hello " + edtTxt.getText().toString());  // changes textview in iml to hello on app
     }
 
 }
