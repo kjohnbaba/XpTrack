@@ -14,12 +14,14 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        EditText edtTxt = findViewById(R.id.edtTxt);
-        edtTxt.getText().toString();
+
 
     }
     public void onBtnClick (View view){
         TextView viewFinder = findViewById(R.id.textView2);
+        EditText edtTxt = findViewById(R.id.edtTxt);
+        edtTxt.getText().toString();
+
         viewFinder.setText("Hello");  // changes textview in iml to hello on app
     }
 
