@@ -1,6 +1,8 @@
 # Work in Progress
 
-A static android program that will keep track of multiple things.
+A simple android program that will keep track of multiple things. Currently barebones, and I will slowly decide what functions to add later on.
 
 Made using android studio and java.
+
+
  
