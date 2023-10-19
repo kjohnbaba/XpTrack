@@ -23,7 +23,16 @@ public class MainActivity extends AppCompatActivity {
 
         int totalXP = 0;
 
-        viewFinder.setText("Strength XP " + edtTxt.getText().toString());  // changes textview in iml to hello on app
+        int xpToAdd = 0;
+        try {
+            xpToAdd = Integer.parseInt(edtTxt.getText().toString());
+        }
+        catch (NumberFormatException e) {
+            xpToAdd = 0;
+        }
+
+
+        viewFinder.setText("Strength XP " + xpToAdd);  // changes textview in iml to hello on app
     }
 
 }
