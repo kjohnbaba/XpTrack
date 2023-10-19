@@ -21,6 +21,7 @@ public class MainActivity extends AppCompatActivity {
         TextView viewFinder = findViewById(R.id.textView2);
         EditText edtTxt = findViewById(R.id.edtTxt);
 
+        int totalXP = 0;
 
         viewFinder.setText("Strength XP " + edtTxt.getText().toString());  // changes textview in iml to hello on app
     }
