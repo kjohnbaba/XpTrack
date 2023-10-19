@@ -22,7 +22,7 @@ public class MainActivity extends AppCompatActivity {
         EditText edtTxt = findViewById(R.id.edtTxt);
 
 
-        viewFinder.setText("Hello " + edtTxt.getText().toString());  // changes textview in iml to hello on app
+        viewFinder.setText("Strength XP " + edtTxt.getText().toString());  // changes textview in iml to hello on app
     }
 
 }
