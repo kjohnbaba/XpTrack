@@ -14,11 +14,12 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-
+        
 
     }
     public void onBtnClick (View view){
         TextView viewFinder = findViewById(R.id.textView2);
+
         EditText edtTxt = findViewById(R.id.edtTxt);
 
         int totalXP = 0;
@@ -35,7 +36,7 @@ public class MainActivity extends AppCompatActivity {
 
 
 
-        viewFinder.setText("Strength XP " + getString(R.string.total_xp, totalXP));  // changes textview in iml to hello on app
+        viewFinder.setText("Strength XP " + getString(R.string.total_xp, totalXP));
     }
 
 }
