@@ -19,7 +19,6 @@ public class MainActivity extends AppCompatActivity {
     }
     public void onBtnClick (View view){
         TextView viewFinder = findViewById(R.id.textView2);
-
         EditText edtTxt = findViewById(R.id.edtTxt);
 
         int totalXP = 0;
@@ -31,12 +30,11 @@ public class MainActivity extends AppCompatActivity {
         catch (NumberFormatException e) {
             xpToAdd = 0;
         }
-
         totalXP += xpToAdd;
-
-
-
         viewFinder.setText("Strength XP " + getString(R.string.total_xp, totalXP));
+
+        //todo add database class to store data
+
     }
 
 }
