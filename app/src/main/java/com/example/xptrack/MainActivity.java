@@ -33,7 +33,7 @@ public class MainActivity extends AppCompatActivity {
         totalXP += xpToAdd;
         viewFinder.setText("Strength XP " + getString(R.string.total_xp, totalXP));
 
-        //todo: Add database class to store data, USE SQLITE 
+        //todo: Add database class to store data, USE SQLITE , things to add: str cha int as integers
 
         //todo 2: Add extra page scrollview
 
