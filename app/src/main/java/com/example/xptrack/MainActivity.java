@@ -14,11 +14,10 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        
-
     }
+
     public void onBtnClick (View view){
-        TextView viewFinder = findViewById(R.id.textView2);
+
         EditText edtTxt = findViewById(R.id.edtTxt);
 
         int totalXP = 0;
@@ -31,8 +30,6 @@ public class MainActivity extends AppCompatActivity {
             xpToAdd = 0;
         }
         totalXP += xpToAdd;
-        viewFinder.setText("Strength XP " + getString(R.string.total_xp, totalXP));
-
         //todo: Add database class to store data, USE SQLITE , things to add: str cha int as integers
 
         //todo 2: Add extra page scrollview
