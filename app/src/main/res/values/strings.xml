@@ -1,8 +1,7 @@
 <resources>
     <string name="app_name">XpTrack</string>
-
     <string name="total_xp">is: %1$d  </string>
-    <string name="AppName">Life XP Tracker</string>
+    <string name="AppName"><b><i>Life XP Tracker</i></b></string>
     <string name="StrengthLevel">Strength Level</string>
     <string name="TotalXp">Total XP</string>
     <string name="AddExp">ADD EXP</string>
