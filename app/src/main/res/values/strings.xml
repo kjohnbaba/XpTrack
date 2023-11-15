@@ -5,4 +5,5 @@
     <string name="AppName">Life XP Tracker</string>
     <string name="StrengthLevel">Strength Level</string>
     <string name="TotalXp">Total XP</string>
+    <string name="AddExp">ADD EXP</string>
 </resources>
