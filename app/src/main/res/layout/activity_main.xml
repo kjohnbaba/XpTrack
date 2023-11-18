@@ -16,11 +16,11 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/edtTxt"
+        app:layout_constraintTop_toBottomOf="@+id/edtXpGain"
         app:layout_constraintVertical_bias="0.381" />
 
     <EditText
-        android:id="@+id/edtTxt"
+        android:id="@+id/edtXpGain"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginBottom="200dp"
