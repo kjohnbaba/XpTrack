@@ -12,4 +12,7 @@ public class UserData {
         this.totalXP = totalXP;
         this.strength = strength;
     }
+
+    public UserData() {
+    }
 }
