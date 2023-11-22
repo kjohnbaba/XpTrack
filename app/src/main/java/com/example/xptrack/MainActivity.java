@@ -22,7 +22,7 @@ public class MainActivity extends AppCompatActivity {
         int totalXP = 0;
 
         int xpToAdd = 0;
-        try {
+        try {  
             xpToAdd = Integer.parseInt(edtTxt.getText().toString());
         }
         catch (NumberFormatException e) {
