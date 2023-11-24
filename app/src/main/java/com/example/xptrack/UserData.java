@@ -13,6 +13,10 @@ public class UserData {
     public UserData() {
     }
 
+    // todo toString
+    
+
+
     public int getTotalXP() {
         return totalXP;
     }
