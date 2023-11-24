@@ -14,8 +14,15 @@ public class UserData {
     }
 
     // todo toString
-    
 
+
+    @Override
+    public String toString() {
+        return "UserData{" +
+                "totalXP=" + totalXP +
+                ", strength=" + strength +
+                '}';
+    }
 
     public int getTotalXP() {
         return totalXP;
