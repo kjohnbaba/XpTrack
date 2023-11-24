@@ -12,10 +12,7 @@ public class UserData {
 
     public UserData() {
     }
-
-    // todo toString
-
-
+    
     @Override
     public String toString() {
         return "UserData{" +
